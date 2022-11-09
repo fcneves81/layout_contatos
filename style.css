@@ -68,10 +68,18 @@ input {
     margin: 15px;
     width: 80%;
     height: 60px;
-    border-radius: 15px;
-    border-right: 2px outset rgba(255, 255, 255, 0.8);
-    border-left: 4px inset rgba(255, 255, 255, 0.5);
-    border-bottom: 4px outset rgba(255, 255, 255, 0.5);
-    box-shadow: 2px 2px 10px #010101;
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px #73098d,
+                5px 5px 5px #4a025c,
+                inset -8px -8px 15px #9502b9,
+                inset 8px 8px 15px #7b0997;
     
 }
+
+/*
+box-shadow: 25px 25px 25px #de60ff,
+            10px 10px 10px #de60ff,
+            inset -5px -5px 15px #de60ff,
+            inset 5px 5px 15px #de60ff
+
+*/
